@@ -1,4 +1,4 @@
-# MLV
+# MLV Markov chain
 A touch-by-touch point win probability model for MLV
 
 In the fast-paced environment of Major League Volleyball (MLV), traditional metrics often fail to capture the nuanced contributions of players within the flow of a rally. Standard statistics like hitting percentage offer a binary view of success, kills versus errors, but ignore the incremental value of a "good" touch that sets up a teammate or a "bad" touch that puts the defense in a hole. This analysis implements a touch-by-touch win probability model to move beyond these limitations. By quantifying how each action shifts the likelihood of winning a point, we can identify players who consistently improve their team's position, providing a more comprehensive tool for player evaluation and in-game strategy than traditional box scores allow.
