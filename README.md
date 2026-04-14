@@ -9,7 +9,7 @@ The progression of a volleyball point is modeled as a second-order Markov chain.
 
 Tt∈ {Serving, Recieving} represents the team currently making the touch (serving or receiving),
 Rt∈ {1,2,3} represents the number of touches remaining,
-At∈ {S,R,E,A,B,D,F} indicated the action type ((Serve, Reception, Set, Attack, Block, Dig, or Freeball),
+At∈ {S,R,E,A,B,D,F} indicated the action type (Serve, Reception, Set, Attack, Block, Dig, or Freeball),
 Ot∈ {#,+, !,-,/} represents the subjective outcome rating of that touch.
 
 We estimate the transition probability P between states using the second-order assumption  P(St+1|St,St-1). The model includes two terminal states: S{win, S} (Serving team wins) and S{win, R} (Receiving team wins). The Sideout Probability is c the expected value of reaching the receiving-team terminal state:
